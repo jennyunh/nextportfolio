@@ -1,0 +1,49 @@
+/*HORIZONTAL NAVBAR*/
+#nav {
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 40px;
+    width: 100vw;
+    text-align: right;
+}
+
+.link {
+    position: relative;
+    top: 25px;
+    margin-left: 10vmin;
+    margin-right: 10vmin;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.7vmin;
+}
+
+.link:hover {
+    color: rgb(255, 241, 117);
+    text-decoration: underline;
+
+}
+
+#logo {
+    font-family: 'Press Start 2P', cursive;
+    position: fixed;
+    left: 25px;
+    top: 20px;
+    font-size: 3.5vmin;
+    cursor: pointer;
+}
+
+
+#title {
+    height: 23vmin;
+    width: 95vmin;
+    position: relative;
+    top: 25vmin;
+    transition: all 1s ease-in-out;
+    z-index: 1;
+}
+
+#title:hover {
+    opacity: 0.8;
+    height: 24vmin;
+    width: 97vmin;
+}
